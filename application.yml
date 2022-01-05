@@ -1,9 +1,10 @@
 spring:
-  profiles: 
-  	active:
-	- dev
+  profiles:
+    actives:
+      - dev
+
 ---
 spring:
-	profiles: dev
-	applications:
-		name: cloud-config-dev
+  profiles: dev
+  application:
+    name: cloud-config-dev
