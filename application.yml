@@ -1,10 +1,6 @@
-spring:
-  profiles:
-    actives:
-      - dev
-
----
-spring:
-  profiles: dev
-  application:
-    name: cloud-config-dev
+config: 
+  info: 
+    112233445
+  
+  
+  
